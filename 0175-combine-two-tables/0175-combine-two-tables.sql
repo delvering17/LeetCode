@@ -6,5 +6,5 @@ SELECT
 FROM
     Person AS p
 LEFT JOIN
-    Address AS a
-    ON p.personId = a.personId 
+    Address As a
+    ON p.personId = a.personId
